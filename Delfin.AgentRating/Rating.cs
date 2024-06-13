@@ -82,6 +82,7 @@ namespace Delfin.AgentRating
 				int num4 = 1;
 				int num5 = 1;
 				int num6 = 1;
+				// начинаем вычисления
 				int num7 = Convert.ToInt32(Math.Floor(0.05 * (double)num3));
 				num4 = (num7 == 0 ? 1 : num7);
 				num7 = Convert.ToInt32(Math.Floor(0.2 * (double)num3));
